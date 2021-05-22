@@ -11,7 +11,6 @@ public class Cursor {
     public String backGround;
     private long sleep;
 
-
     public Cursor(int high, int y, String backGround, long sleep) {
         this.high = high;
         this.y = y;
@@ -45,7 +44,6 @@ public class Cursor {
 
         System.out.print("\u001b[" + "0G" + "\u001b[" + "28d");
 
-	
 	}
 
 }

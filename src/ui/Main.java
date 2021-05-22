@@ -13,9 +13,9 @@ public class Main {
     private static ClassThread thread3;
 
     public static void main(String[] args){
-        thread1 = new ClassThread(new Cursor(14, 0, YELLOW_BACKGROUND, 10));
-        thread2 = new ClassThread(new Cursor(7, 14, BLUE_BACKGROUND, 26));
-        thread3 = new ClassThread(new Cursor(7, 21, RED_BACKGROUND, 33));
+        thread1 = new ClassThread(new Cursor(14, 1, YELLOW_BACKGROUND, 10));
+        thread2 = new ClassThread(new Cursor(7, 15, BLUE_BACKGROUND, 26));
+        thread3 = new ClassThread(new Cursor(7, 22, RED_BACKGROUND, 33));
 
         System.out.print("\u001b[2J");//Clear screen
 
@@ -27,11 +27,4 @@ public class Main {
 
 	}
 
-}
-        
-
-
-
-    
-
-
+}      
